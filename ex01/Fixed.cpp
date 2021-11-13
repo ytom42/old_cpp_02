@@ -6,10 +6,12 @@
 /*   By: ytomiyos <ytomiyos@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 10:06:39 by ytomiyos          #+#    #+#             */
-/*   Updated: 2021/11/12 20:59:48 by ytomiyos         ###   ########.fr       */
+/*   Updated: 2021/11/13 14:26:02 by ytomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <cmath>
+#include <iostream>
 #include "Fixed.hpp"
 
 Fixed::Fixed( void )
@@ -54,9 +56,9 @@ int Fixed::getRawBits( void ) const
 	return (_fixedPointValue);
 }
 
-void Fixed::setRawBits( int const raw )
+void Fixed::setRawBits( int const  value )
 {
-	_fixedPointValue = raw;
+	_fixedPointValue =  value;
 }
 
 float Fixed::toFloat( void ) const

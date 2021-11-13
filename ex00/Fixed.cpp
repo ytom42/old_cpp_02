@@ -6,10 +6,11 @@
 /*   By: ytomiyos <ytomiyos@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 08:46:32 by ytomiyos          #+#    #+#             */
-/*   Updated: 2021/11/12 10:03:00 by ytomiyos         ###   ########.fr       */
+/*   Updated: 2021/11/13 12:31:15 by ytomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
 #include "Fixed.hpp"
 
 Fixed::Fixed( void )
@@ -21,7 +22,7 @@ Fixed::Fixed( void )
 Fixed::Fixed( const Fixed &fixed )
 {
 	std::cout << "Copy constructor called" << std::endl;
-	_fixedPointValue = fixed.getRawBits();
+	*this = fixed;
 }
 
 Fixed::~Fixed()

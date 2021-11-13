@@ -6,7 +6,7 @@
 #    By: ytomiyos <ytomiyos@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/12 10:06:15 by ytomiyos          #+#    #+#              #
-#    Updated: 2021/11/13 12:36:30 by ytomiyos         ###   ########.fr        #
+#    Updated: 2021/11/13 14:35:38 by ytomiyos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CXX = clang++
 
 CXXFLAGS = -Wall -Wextra -Werror
 
-NAME = fixed2
+NAME = fixed3
 
 SRCS =	main.cpp \
 		Fixed.cpp

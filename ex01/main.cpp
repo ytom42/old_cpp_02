@@ -6,10 +6,11 @@
 /*   By: ytomiyos <ytomiyos@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 10:06:53 by ytomiyos          #+#    #+#             */
-/*   Updated: 2021/11/12 10:24:26 by ytomiyos         ###   ########.fr       */
+/*   Updated: 2021/11/13 13:28:47 by ytomiyos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
 #include "Fixed.hpp"
 
 int main( void )
@@ -33,3 +34,25 @@ int main( void )
 
 	return (0);
 }
+
+
+// Default constructor called
+// Int constructor called
+// Float constructor called
+// Copy constructor called
+// Assignation operator called
+// Float constructor called
+// Assignation operator called
+// Destructor called
+// a is 1234.43
+// b is 10
+// c is 42.4219
+// d is 10
+// a is 1234 as integer
+// b is 10 as integer
+// c is 42 as integer
+// d is 10 as integer
+// Destructor called
+// Destructor called
+// Destructor called
+// Destructor called
